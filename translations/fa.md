@@ -16,7 +16,8 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
   - [مقدمه](#مقدمه)
   - [قوانین](#قوانین)
     - [اصل ۱-۹-۹۰ (قانون ۱٪)](#اصل-۱-۹-۹۰-قانون-۱)
-    - [Amdahl Yasası](#amdahl-yasası)
+    - [قانون ۹۰-۹۰](#قانون-۹۰-۹۰)
+    - [قانون آمدال (Amdahl's Law)](#قانون-آمدال-amdahls-law)
     - [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
     - [Brooks Yasası](#brooks-yasası)
     - [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
@@ -97,11 +98,29 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 - [اصل Pareto](#pareto-prensibi-8020-kural%C4%B1)
 
-### Amdahl Yasası
 
-[Wikipedia Amdahl Yasası](https://en.wikipedia.org/wiki/Amdahl%27s_law)
 
-> Amdahl Yasası kaynakları artırarak bir hesaplama işleminin *olası* hızlanma miktarını hesaplayan bir formülü tanımlar. Genellikle paralel işleme hesaplarında kullanılır ve işlemci sayısının artırılmasının programın paralelleştirilebilme kapasitesine bağlı olarak etkisinin doğru şekilde saplanmasını sağlar.
+
+### قانون ۹۰-۹۰
+
+[قانون ۹۰-۹۰ در ویکی پدیا](https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule)
+
+> ۹۰ درصد اول کد، ۹۰ درصد اول زمان توسعه را تشکیل می‌دهد. ۱۰ درصد باقی‌مانده کد، ۹۰ درصد دیگر زمان توسعه را تشکیل می‌دهد.
+
+
+یک تفسیر مجدد و کنایه‌آمیز از  [اصل پارتو (یا قانون ۸۰-۲۰)](#the-pareto-principle-the-8020-rule) که چالش‌های دنیای واقعی تکمیل کارهای مهندسی را برجسته می‌کند. این عقیده در  [قانون هافسادر](#hofstadters-law).
+ نیز تکرار شده است.
+
+همچنین ببینید:
+
+- [قانون هافسادر (Hofstadter's Law)](#hofstadters-law)
+- [اصل پارتو(The Pareto Principe)](#the-pareto-principle-the-8020-rule)
+
+### قانون آمدال (Amdahl's Law)
+
+[قانون آمدال در ویکی پدیا](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+
+> قانون آمدال فرمولی است که سرعت بالقوه یک کار محاسباتی را که می‌تواند با افزایش منابع یک سیستم حاصل شود، نشان می‌دهد. این قانون که معمولاً در محاسبات موازی استفاده می‌شود، می‌تواند مزیت واقعی افزایش تعداد پردازنده‌ها را پیش‌بینی کند، که توسط قابلیت موازی‌سازی برنامه محدود می‌شود.
 
 En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğunu düşünelim. Bölüm A sadece tek işlemci ile çalıştırılabilir. Bölüm B ise paralelleştirilebilecek şekilde yazılmış. Bu durumda bu programı çok işlemci ile çalıştırdığımızda Bölüm B'de oluşacak kadar bir kazanım sağlayabiliriz. Bölüm A'da her hangi bir katkı olamayacaktır.
 
