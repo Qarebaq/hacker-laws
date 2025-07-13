@@ -122,22 +122,21 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
 > قانون آمدال فرمولی است که سرعت بالقوه یک کار محاسباتی را که می‌تواند با افزایش منابع یک سیستم حاصل شود، نشان می‌دهد. این قانون که معمولاً در محاسبات موازی استفاده می‌شود، می‌تواند مزیت واقعی افزایش تعداد پردازنده‌ها را پیش‌بینی کند، که توسط قابلیت موازی‌سازی برنامه محدود می‌شود.
 
-En güzel şu örnekle anlatılabilir. Bir programın iki bölümden oluştuğunu düşünelim. Bölüm A sadece tek işlemci ile çalıştırılabilir. Bölüm B ise paralelleştirilebilecek şekilde yazılmış. Bu durumda bu programı çok işlemci ile çalıştırdığımızda Bölüm B'de oluşacak kadar bir kazanım sağlayabiliriz. Bölüm A'da her hangi bir katkı olamayacaktır.
 
-Aşağıdaki diyagram bazı olası hız geliştirmelerine örnekler içeriyor:
+شاید این مثال به فهم بیشتر کمک کند. اگر یک برنامه از دو بخش تشکیل شده باشد، بخش الف که باید توسط یک پردازنده اجرا شود و بخش ب که می‌تواند به صورت موازی اجرا شود، می‌بینیم که اضافه کردن چندین پردازنده به سیستمی که برنامه را اجرا می‌کند، تنها می‌تواند مزیت محدودی داشته باشد. این کار می‌تواند به طور بالقوه سرعت بخش ب را تا حد زیادی بهبود بخشد - اما سرعت بخش الف بدون تغییر باقی خواهد ماند.
 
-<img width="480px" alt="Diagram: Amdahl's Law" src="../../../../images/amdahls_law.png">
+نمودار زیر چند نمونه از بهبودهای بالقوه در سرعت را نشان می‌دهد:
 
-*(Diyagramın kaynağı: Daniels220 tarafından İngilizce Wikipedia'da, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)*
+<img style="align:center;" width="480px" alt="Diagram: Amdahl's Law" src=".../../../images/amdahls_law.png">
 
-Diyagramdaki örneklerden görüldüğü üzere, eğer bir programın sadece %50'si paralelleştirilebiliyorsa 10 işlemciden sonra işlemci eklemek hızda gözle görünür bir artış sağlamıyor ama %95 paralelleştirilebilen bir programda 1000 işlemciden sonra bile işlemci eklemenin hızı artırdığı gözlenebilir.
+همانطور که مشاهده می‌شود، حتی برنامه‌ای که ۵۰٪ قابلیت موازی‌سازی دارد، فراتر از ۱۰ واحد پردازشی سود بسیار کمی خواهد برد، در حالی که برنامه‌ای که ۹۵٪ قابلیت موازی‌سازی دارد، همچنان می‌تواند با بیش از هزار واحد پردازشی به پیشرفت‌های سرعت قابل توجهی دست یابد.
 
-[Moore Yasasında](#moores-law) söylenen artışın azalma eğiliminde olması ve aynı zamanda işlemci hızının artışında da ivme kaybı olması, paralelleştirilebilme özelliğini performans artışında anahtar duruma getirdi. Grafik programlama bu konuda en belirgin örnek. Shader tabanlı modern işleme ile pixel ve fragmanların paralel olarak render edilebilmesi sayesinde modern grafik kartlarında binlerce işlemci çekirdeği olabiliyor.
+با کند شدن قانون [مور](#Moors_law) و کاهش سرعت رشد توان پردازشی تک‌پردازنده‌ها، موازی‌سازی به عامل کلیدی در افزایش عملکرد تبدیل شده است. برنامه‌نویسی گرافیکی نمونه‌ای عالی از این رویکرد است — در سیستم‌های مدرن مبتنی بر Shader، هر پیکسل می‌تواند به‌صورت موازی پردازش شود. به همین دلیل است که کارت‌های گرافیک امروزی دارای هزاران هسته‌ی پردازشی (GPU یا واحدهای Shader) هستند.
 
-Ek kaynaklar:
+همچنین ببینید:
 
-- [Brooks Yasası](#brooks-law)
-- [Moore Yasası ](#moores-law)
+- [قانون بروکس (Brook's Law)](#brooks-law)
+- [قانون مور (Moor's Law) ](#moores-law)
 
 ### Kırık Camlar Teorisi
 
