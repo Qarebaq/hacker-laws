@@ -18,7 +18,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [اصل ۱-۹-۹۰ (قانون ۱٪)](#اصل-۱-۹-۹۰-قانون-۱)
     - [قانون ۹۰-۹۰](#قانون-۹۰-۹۰)
     - [قانون آمدال (Amdahl's Law)](#قانون-آمدال-amdahls-law)
-    - [Kırık Camlar Teorisi](#kırık-camlar-teorisi)
+    - [نظریه پنجره شکسته](#نظریه-پنجره-شکسته)
     - [Brooks Yasası](#brooks-yasası)
     - [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
     - [Conway Yasası](#conway-yasası)
@@ -138,23 +138,23 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - [قانون بروکس (Brook's Law)](#brooks-law)
 - [قانون مور (Moor's Law) ](#moores-law)
 
-### Kırık Camlar Teorisi
+### نظریه پنجره شکسته
 
-[Wikipedia'da Kırık Camlar Teorisi](https://en.wikipedia.org/wiki/Broken_windows_theory)
+[نظریه پنجره شکسته در ویکی پدیا](https://en.wikipedia.org/wiki/Broken_windows_theory)
 
-Kırık Camlar Teorisi, gözle görülebilir suç belirtilerinin (ya da ortamın  bakımsızlığının) daha ciddi suçlara (ya da ortamın daha da bozulmasına) yol açtığını göstermektedir.
+نظریه پنجره شکسته بیان میکند که آثار شهودی جرم(یا عدم مراقبت از محیط)میتواند باعث وقوع جرایم  جدی  تر  تر (یا بدتر شدن بیشتر محیط)
+شود.
+این نظریه در توسعه نرم افزار اینچنین قابل بیان است که:  کد با کیفیت پایین (یا مشکل فنی) می تواند منجر به این تصور شود که تلاش ها برای بهبود کیفیت ممکن است نادیده گرفته شود یا دست کم گرفته شود، بنابراین منجر به کدهای با کیفیت پایین تر می شود. این اثر به مرور زمان منجر به کاهش شدید کیفیت می شود.
 
-Bu teori, yazılım geliştirmeye şu şekilde uygulanabilir; düşük kalite kodun (veya [Teknik Borcun](#TODO)) varlığı kaliteyi geliştirme çabalarının göz ardı edilebileceği veya önemsenmeyeceği algısına yol açabileceği ve dolayısıyla düşük kalite koda sebep olabileceğidir. Bu etki zamanla kalitenin daha çok azalmasına neden olur.
+همچنین بخوانید:
 
-Ek kaynaklar:
+- [بدهی فنی](#TODO)
 
-- [Teknik Borç](#TODO)
+مثال ها:
 
-Örnekler:
-
-- [Pragmatik Programlama: Yazılım Entropisi](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
-- [Kodlama Kabusu: Kırık Camlar Teorisi](https://blog.codinghorror.com/the-broken-window-theory/)
-- [Açık Kaynak: Eğlenceli Programlama - Kırık Camlar Teorisi](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
+- [برنامه نویسی Pragmatic: آنتروپی نرم افزار](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [کابوس برنامه نویسی: نظریه پنجره شکسته](https://blog.codinghorror.com/the-broken-window-theory/)
+- [متن باز: لذت برنامه نویسی - نظریه پنجره شکسته](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### Brooks Yasası
 
