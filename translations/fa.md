@@ -19,7 +19,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [قانون ۹۰-۹۰](#قانون-۹۰-۹۰)
     - [قانون آمدال (Amdahl's Law)](#قانون-آمدال-amdahls-law)
     - [نظریه پنجره شکسته](#نظریه-پنجره-شکسته)
-    - [Brooks Yasası](#brooks-yasası)
+    - [قانون بروک (Brook's Law)](#قانون-بروک-brooks-law)
     - [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
     - [Conway Yasası](#conway-yasası)
     - [Cunningham Yasası](#cunningham-yasası)
@@ -156,22 +156,22 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 - [کابوس برنامه نویسی: نظریه پنجره شکسته](https://blog.codinghorror.com/the-broken-window-theory/)
 - [متن باز: لذت برنامه نویسی - نظریه پنجره شکسته](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
-### Brooks Yasası
+### قانون بروک (Brook's Law)
 
-[Wikipedia'da Brooks Yasası](https://en.wikipedia.org/wiki/Brooks%27s_law)
+[قانون بروک در ویکی پدیا](https://en.wikipedia.org/wiki/Brooks%27s_law)
 
-> Gecikmesi kesinleşmiş projeye yeni insan kaynağı eklemek projeyi daha da geciktirir.
+> اضافه کردن نیروی انسانی به یک پروژه نرم‌افزاری که از برنامه عقب افتاده، باعث تأخیر بیشتر آن می‌شود.
 
-Bu yasa, gecikmiş bir projeyi hızlandırmak için ek insan kaynağı koymanın projeyi daha geciktireceğini iddia ediyor. Brook'a göre bunun gereksiz bir sadeleştirme olduğu kesin. Yeni katılanların adapte edilmesi ve iletişim karmaşası hemen etkisini göstererek hızın yavaşlamasına sebep olur. Ayrıca, yapılacak işlerin birçoğu genellikle daha küçük parçalara bölünemez ve birden fazla kaynak bu işlerin yapılması için kullanılmaz. Bu durum beklenen artışın sağlanmaması ile sonuçlanır.
+این قانون چنین بیان میکند که در بسیاری از شرایط ، تلاش برای تسریع در تحویل پروژه ای که در حال حاضر دیر شده است، با اضافه کردن افراد بیشتر، تحویل را حتی دیرتر انجام می دهد.البته این ساده سازی بیش از اندازه است.با این حال، استدلال کلی این است که با توجه به زمان افزایش منابع جدید و سربار ارتباطات، در سرعت کوتاه مدت فوری کاهش می یابد. همچنین بسیاری از وظایف قابل تقسیم نیستند.یعنی به راحتی بین منابع بیشتر توزیع می شود، به این معنی که افزایش سرعت پتانسیل نیز کمتر است.
 
-Meşhur "Dokuz kadın ile 1 ayda doğum sağlanamaz" deyimi bu yasanın en pratik anlatımıdır. Bazı işlerin bölünemediği veya paralelleştirilemediği gerçeğini unutmamak lazım.
+اصطلاح معروف در حوزه تحویل پروژه که می‌گوید: "نه زن نمی‌توانند در یک ماه یک بچه به دنیا بیاورند" به قانون بروکس اشاره دارد — به‌ویژه به این نکته که برخی کارها قابل تقسیم یا انجام موازی نیستند
 
-'[The Mythical Man Month](#reading-list)' adlı kitabın ana konularından biri budur.
+'[افسانهٔ نفر-ماه در مدیریت پروژه](#reading-list)' یکی از مفاهیم اصلی کتاب به شمار می آید.
 
-Ek kaynaklar:
+همچنین بخوانید:
 
-- [Death March](#todo)
-- [Reading List: The Mythical Man Month](#reading-list)
+- [رژه مرگ](#todo)
+- [فهرست مطالعه: افسانه نفر-ماه](#reading-list)
 
 ### CAP Teorisi (Brewer Teorisi)
 
