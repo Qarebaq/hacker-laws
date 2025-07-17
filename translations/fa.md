@@ -21,6 +21,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [نظریه پنجره شکسته](#نظریه-پنجره-شکسته)
     - [قانون بروک (Brook's Law)](#قانون-بروک-brooks-law)
     - [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
+    - [سه قانون کلارک](#سه-قانون-کلارک)
     - [Conway Yasası](#conway-yasası)
     - [Cunningham Yasası](#cunningham-yasası)
     - [Dunbar Sayısı](#dunbar-sayısı)
@@ -196,6 +197,20 @@ Ek kaynaklar:
 - [ACID](#TODO)
 - [Dağıtık Sistemlerin Yanılgıları](#the-fallacies-of-distributed-computing)
 - [PACELC](#TODO)
+
+
+### سه قانون کلارک
+[سه قانون کلارک در ویکی پدیا](https://en.wikipedia.org/wiki/Clarke's_three_laws)
+آرتور سی. کلارک، نویسنده بریتانیایی داستان‌های علمی‌تخیلی، سه گزاره معروف را بیان کرده که به سه قانون کلارک مشهور شده‌اند.
+قانون سوم، شناخته‌شده‌ترین و پرارجاع‌ترین این قوانین است.
+
+این قوانین به شرح زیر هستند:
+
+  وقتی یک دانشمند برجسته اما سالخورده ادعا می‌کند چیزی ممکن است، تقریباً همیشه حق با اوست. اما وقتی می‌گوید چیزی غیرممکن است، احتمالاً اشتباه می‌کند.
+
+  تنها راه کشف مرزهای امکان، پیشروی اندکی فراتر از آن‌ها و ورود به قلمرو ناممکن است.
+
+  هر فناوری‌ای که به اندازه کافی پیشرفته باشد، از جادو قابل تمایز نیست.
 
 ### Conway Yasası
 
