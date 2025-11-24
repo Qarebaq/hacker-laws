@@ -4,7 +4,7 @@
 
 Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
 
-[ترجمه ها](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md)
+[ترجمه ها](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md) [🇮🇷](./translations/fa.md)
 
  ازین پروژه خوشتون اومد؟ به [اسپانسر شدن](https://github.com/sponsors/dwmkerr) فکر کنید!
 
@@ -22,8 +22,8 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [قانون بروک (Brook's Law)](#قانون-بروک-brooks-law)
     - [CAP Teorisi (Brewer Teorisi)](#cap-teorisi-brewer-teorisi)
     - [سه قانون کلارک](#سه-قانون-کلارک)
-    - [Conway Yasası](#conway-yasası)
-    - [Cunningham Yasası](#cunningham-yasası)
+    - [قانون کانوی(Conway's Law)](#قانون-کانویconways-law)
+    - [قانون کانینگهام(Cunningham's Law)](#قانون-کانینگهامcunninghams-law)
     - [Dunbar Sayısı](#dunbar-sayısı)
     - [Fitt Yasası](#fitt-yasası)
     - [Gall Yasası](#gall-yasası)
@@ -212,27 +212,28 @@ Ek kaynaklar:
 
   هر فناوری‌ای که به اندازه کافی پیشرفته باشد، از جادو قابل تمایز نیست.
 
-### Conway Yasası
+### قانون کانوی(Conway's Law)
 
-[Wikipedia'da Conway Yasası](https://en.wikipedia.org/wiki/Conway%27s_law)
+[قانون کانوی در ویکی پدیا](https://en.wikipedia.org/wiki/Conway%27s_law)
 
-Conway yasası der ki; üretilen sistemler kendilerini üreten organizasyonun teknik sınırlarını yansıtır. Bu yasa daha çok organizasyon değişiklikleri sırasında dikkate alınır. Eğer bir organizasyon birbirinden bağımsız küçük birimlerden oluşuyorsa üretilen yazılımlar da buna uygun olacaktır. Eğer bu organizasyon servis odaklı dikey yapılandırılmışsa, yazılımlar bunu yansıtacaktır.
+این قانون چنین بیان میکند که مرز های فنی یک سیستم بازتابی از ساختار سازمانی آن خواهد بود. هنگام بررسی بهبود های سازمانی معمولا به این قانون ارجاع داده میشود.قانون کانوی میگوید که اگر یک سازمان از بخش های کوچک و جدا از هم تشکیل شده باشد نرم افزاری که تولید میکند نیز همانگونه خواهد بود. اگر سازمان بیشتر بر اساس سیستم عمودی که حول ویژگی ها یا سرویس ها شکل گرفته اند بنا شده باشد, سیستم های نرم افزاری نیز همین ساختار را بازتاب خواهند داد.
 
-Ek kaynaklar:
+همچنین بخوانید:
 
-- [Spotify Modeli](#the-spotify-model)
+- [مدل اسپاتیفای](#the-spotify-model)
 
-### Cunningham Yasası
+### قانون کانینگهام(Cunningham's Law)
 
-[Wikipedia'da Cunningham Yasası](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+[قانون کانینگهام در ویکی پدیا](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
-> İnternette doğru cevabı almanın en iyi yolu, soru sormak değil, yanlış olan cevabı yazmaktır.
+> بهترین شیوه بدست آوردن جواب درست یک مسئله در اینترنت این نیست که سوال بپرسی; بلکه این است که یک جواب اشتباه پست کنی
+بنابر گفته استیو مک‌گیدی,وارد کانینگهام در اوایل دهه ۱۹۸۰ به او گفته بود:"بهترین راه برای گرفتن پاسخ درست در اینترنت این نیست که سوال بپرسی بلکه آن است که یک پاسخ اشتباه منتشر کنی"
+مک‌گیدی این قانون را "قانون کانینگهام" نام گذاری کرده, هرچند خود کانینگهام آن را رد کرده و آن را یک نقل قول اشتباه میداند.
+اگرچه این قانون در ابتدا به تعاملات کاربران در یوزنت(Usenet)اشاره داشت اما بعدها برای توصیف نحوه کار دیگر جوامع آنلاین نیز به کار رفته است (برای مثال:ویکی پدیا,ردیت,توییتر,فیس بوک)
 
-Steven McGeady'ye göre, Ward Cunningham, 1980'lerin başında ona tavsiye olarak “İnternette doğru cevabı almanın en iyi yolu, bir soru sormak değil, yanlış olan cevabı yazmaktır” dedi. McGeady bunu Cunningham kanunu olarak adlandırdı, ancak Cunningham bu sahipliği bunun "yanlış bir alıntı" olduğunu nitelendirerek reddetti. Her ne kadar orjinalinde Usenet'teki etkileşimlerle ilgili olsa da, yasa diğer çevrimiçi toplulukların nasıl çalıştığını açıklamak için kullanılmıştır (örneğin, Wikipedia, Reddit, Twitter, Facebook).
+همچنین بخوانید:
 
-Ek kaynaklar:
-
-- [XKCD 386: "Duty Calls"](https://xkcd.com/386/)
+- [XKCD 386: "وظیفه فرا میخواند"](https://xkcd.com/386/)
 
 ### Dunbar Sayısı
 
