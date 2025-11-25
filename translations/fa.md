@@ -27,8 +27,8 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [عدد دانبار(Dunbar's Number)](#عدد-دانبارdunbars-number)
     - [(The Dunning-Kruger Effect)اثر دانینگ-کروگر](#the-dunning-kruger-effectاثر-دانینگ-کروگر)
     - [قانون فیتس(Fitt's Law)](#قانون-فیتسfitts-law)
-    - [Gall Yasası](#gall-yasası)
-    - [Goodhart Yasası](#goodhart-yasası)
+    - [قانون گال (Gall's Law)](#قانون-گال-galls-law)
+    - [Goodhart's Law](#goodharts-law)
     - [Hanlon'un Usturası](#hanlonun-usturası)
     - [Hick Yasası (Hick-Hyman Yasası)](#hick-yasası-hick-hyman-yasası)
     - [Hofstadter Yasası](#hofstadter-yasası)
@@ -278,24 +278,23 @@ Ek kaynaklar:
 
 - [ظرفیت اطلاعاتی سیستم حرکتی انسان در کنترل دامنه حرکت.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
-### Gall Yasası
+### قانون گال (Gall's Law)
 
-[Wikipedia'da Gall Yasası](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+[قانون گال در ویکی پدیا](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
-> Çalışan karmaşık bir sistemin her zaman işe yarayan daha basit bir sistemden evrimleştiği kesinlikle söylenebilir. Başlangıçtan itibaren karmaşık tasarlanmış bir sistemin asla çalışmayacağı ve sonradan da düzeltilemeyeceği kesindir. Çalışsan daha basit bir sistem ile başlamanız gerekir. ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
-> ([John Gall](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> یک سیستم پیچیده که درست کار میکند همیشه حاصل تکامل یک سیستم ساده ای است که درست کار میکرده. یک سیستم پیچیده که از ابتدا طراحی شود هیچ وقت کار نمیکند و نمیتوان با وصله و پینه آن را به کار انداخت. باید از یک سیستم ساده و کارآمد شروع کنید و آن را توسعه دهید.
+> ([جان گال](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
-Gall Yasası der ki, çok karmaşık sistemleri *tasarlamaya* çalışmak her zaman başarısızlıkla sonuçlanır. Bu tür sistemlerin ilk denemede başarılı olmaları çok nadir görülür ama genellikle basit sistemlerden evrilirler.
+قانون گال بیان میکند که تلاش برای طراحی سیستم های بسیار پیچیده معمولا با شکست روبرو میشود.سیستم های بسیار پیچیده به ندرت یکباره ساخته میشوند؛ بلکه معمولا از سیستم های ساده تر تکامل پیدا میکنند. 
+نمونه کلاسیک آن شبکه جهانی وب است. وب در وضعیت کنونی اش یک سیستم بسیار پیچیده است.اما در ابتدا فقط به عنوان یک روش ساده برای به اشتراک‌گذاری محتوا بین موسسات دانشگاهی تعریف شده بود. این سیستم در رسیدن به آن اهداف بسیار موفق بود و به تدریج تکامل یافت و پیچیده تر شد.
 
-En klasik örnek günümüzdeki internettir.  Şu an çok karmaşık bir sistemdir.  Aslında başlangıçta sadece akademik kurumlar arası içerik paylaşımı olarak tanımlanmıştı. Bu tanımı karşılamada çok başarılı oldu ve zamanla gelişerek bugünkü karmaşık halini aldı.
-
-Ek kaynaklar:
+همچنین بخوانید:
 
 - [KISS (Keep It Simple, Stupid)](#the-kiss-principle)
 
-### Goodhart Yasası
+### Goodhart's Law
 
-[Wikipedia'da Goodhart Yasası](https://en.wikipedia.org/wiki/Goodhart's_law)
+[در ویکی پدیا Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart's_law)
 
 > Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır. *Charles Goodhart*
 > *Charles Goodhart*
