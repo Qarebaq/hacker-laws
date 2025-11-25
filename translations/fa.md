@@ -2,7 +2,7 @@
 
 # 💻📖 قوانین هکر ها
 
-Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
+<h4 align="center">🧠 قوانین، نظریه‌ها، اصول و الگوها برای توسعه‌دهندگان و متخصصان فناوری.</h4>
 
 [ترجمه ها](#%C3%A7eviriler): [🇧🇷](./translations/pt-BR.md) [🇨🇳](https://github.com/nusr/hacker-laws-zh) [🇫🇷](./translations/fr.md) [🇮🇹](./translations/it-IT.md) [🇱🇻](./translations/lv.md) [🇰🇷](https://github.com/codeanddonuts/hacker-laws-kr) [🇷🇺](https://github.com/solarrust/hacker-laws) [🇪🇸](./translations/es-ES.md) [🇮🇩](./translations/id.md) [🇯🇵](./translations/jp.md) [🇵🇱](./translations/pl.md) [🇻🇳](./translations/vi.md) [🇮🇷](./translations/fa.md)
 
