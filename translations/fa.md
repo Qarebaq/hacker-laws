@@ -25,7 +25,8 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [قانون کانوی(Conway's Law)](#قانون-کانویconways-law)
     - [قانون کانینگهام(Cunningham's Law)](#قانون-کانینگهامcunninghams-law)
     - [عدد دانبار(Dunbar's Number)](#عدد-دانبارdunbars-number)
-    - [Fitt Yasası](#fitt-yasası)
+    - [(The Dunning-Kruger Effect)اثر دانینگ-کروگر](#the-dunning-kruger-effectاثر-دانینگ-کروگر)
+    - [قانون فیتس(Fitt's Law)](#قانون-فیتسfitts-law)
     - [Gall Yasası](#gall-yasası)
     - [Goodhart Yasası](#goodhart-yasası)
     - [Hanlon'un Usturası](#hanlonun-usturası)
@@ -249,24 +250,33 @@ Ek kaynaklar:
 
 
 - [قانون کانوی](#conways-law)
+### (The Dunning-Kruger Effect)اثر دانینگ-کروگر
 
-### Fitt Yasası
+[اثر دانینگ-کروگر در ویکی پدیا](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
-[Wikipedia'da Fitt Yasası](https://en.wikipedia.org/wiki/Fitts%27s_law)
+> اگر بی‌تجربه یا ناتوان هستید,نمیتوانید بفهمید که بی‌تجربه یا ناتوان هستید ... مهارت‌هایی که برای ارائه یک پاسخ درست نیاز دارید دقیقا همان مهارت هایی هستند که برای تشخیص پاسخ درست لازم‌اند.
+>
+> ([دیوید دانینگ](https://en.wikipedia.org/wiki/David_Dunning))
 
-Fitts yasası, bir hedef alana gitmek için gereken sürenin hesaplanmasında, hedefe olan mesafenin hedefin genişliğine bölünmesinin bir işlevi olduğunu öngörür.
+اثر دانینگ–کروگر یک سوگیری شناختی نظری است که توسط دیوید دانینگ و جاستین کروگر در یک مطالعه روانشناسی در سال ۱۹۹۹ توصیف شد. این مطالعه نشان می‌دهد که افرادی که مهارت کمی در انجام یک کار دارند، معمولاً توانایی خود در آن کار را بیش از حد ارزیابی می‌کنند. دلیل پیشنهاد شده برای این سوگیری این است که برای آنکه فرد بتواند نظر آگاهانه‌ای درباره توانایی خود در یک حوزه داشته باشد، لازم است آگاهی کافی از پیچیدگی‌های آن مسئله یا حوزه وجود داشته باشد.
 
+اثر دانینگ-کروگر گاهی برای توصیف یک اثر مرتبط، اما لزوماً ضمنی، نیز به کار می‌رود که می‌توان آن را این‌گونه بیان کرد: «هرچه فرد در یک حوزه کمتر بداند، احتمال بیشتری دارد که تصور کند می‌تواند به راحتی مسائل آن حوزه را حل کند، زیرا آن حوزه را ساده می‌بیند.» این اثر کلی‌تر در حوزه فناوری بسیار مرتبط است و نشان می‌دهد که افرادی که با یک حوزه کمتر آشنا هستند — مانند اعضای غیرتخصصی تیم یا اعضای تیم کم‌تجربه — احتمال بیشتری دارد که میزان تلاش لازم برای حل یک مسئله در آن حوزه را دست‌کم بگیرند.
+با افزایش دانش و تجربه یک فرد در یک حوزه ممکن است اثر دیگری رخ دهد:او تمایل پیدا میکند که توانایی دیگران را بیش از حد ارزیابی کند یا توانایی خود را دست‌کم بگیرد زیرا تجربه زیادی در آن حوزه کسب کرده است. در تمام این موارد این سوگیری‌های شناختی هستند.همانند هر سوگیری دیگری,آگاهی از وجود آن معمولا کافی است تا از چالش ها جلوگیری شود زیرا وقتی از وجود یک سوگیری آگاه باشیم میتوان ورودی ها و نظرات بیشتری را وارد کرد تا تلاش کنیم این سوگیری ها را کاهش دهیم. یک سوگیری نزدیک و مرتبط با این موضوع برتری کاذب است.
+
+### قانون فیتس(Fitt's Law)
+
+[قانون فیتس در ویکی پدیا](https://en.wikipedia.org/wiki/Fitts%27s_law)
+
+قانون فیتس چنین پیش بینی میکند که زمان لازم برای حرکت به سمت یک منطقه هدف تابعی از فاصله تقسیم بر عرض هدف است.
 <img width="300px" alt="The Hype Cycle" src="./images/Fitts_Law.svg">
 
-*(Diagramın Kaynağı: By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
+پیامدهای این قانون ایجاب می‌کند که هنگام طراحی تجربه کاربری (UX) یا رابط کاربری (UI)، عناصر تعاملی باید تا حد امکان بزرگ باشند و فاصله بین منطقه توجه کاربر و عنصر تعاملی تا حد امکان کم باشد. این موضوع بر طراحی اثر می‌گذارد، مثلاً با گروه‌بندی کارهایی که معمولاً با هم استفاده می‌شوند در نزدیکی یکدیگر.
 
-Bu yasanın sonuçları, UX veya UI tasarlanırken etkileşimli öğelerin mümkün olduğunca büyük olması ve kullanıcıların dikkat alanı ile etkileşimli öğe arasındaki mesafenin mümkün olduğunca küçük olması gerektiğini ortaya çıkarır. Bunun tasarım üzerinde sonuçları vardır, örneğin birbirleriyle yakın kullanılan işlevlerin gruplanması gibi.
+این قانون همچنین مفهوم «گوشه‌های جادویی» (magic corners) را رسمی می‌کند؛ گوشه‌های صفحه‌ای که کاربر می‌تواند به راحتی موس خود را به سمت آن‌ها حرکت دهد و هدف را بدون تلاش زیاد انتخاب کند. این مکان‌ها جای مناسبی برای قرار دادن عناصر کلیدی رابط کاربری هستند. برای مثال، دکمه Start در ویندوز در یک گوشه جادویی قرار دارد و انتخاب آن آسان است، در حالی که به عنوان یک تضاد جالب، دکمه بستن پنجره در مک‌اواس در گوشه جادویی نیست و انتخاب اشتباهی آن دشوارتر است.
 
-Ayrıca, ekranın köşeleri için temel kullanıcı arayüzü öğelerinin yerleştirilebileceği 'sihirli köşeler' (bir kullanıcının farelerini kolayca vurabileceği ya da süpürebileceği) kavramını resmileştiriyor. Windows Başlat düğmesi sihirli bir köşede, seçmeyi kolaylaştırıyor ve ilginç bir kontrast olarak, MacOS'un 'pencereyi kapat' düğmesi sihirli bir köşede *değil*, yanlışlıkla tıklanmayı zorlaştırıyor.
+همچنین بخوانید:
 
-Ek kaynaklar:
-
-- [İnsan motor sisteminin hareket genliğini kontrol etme veri kapasitesi.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
+- [ظرفیت اطلاعاتی سیستم حرکتی انسان در کنترل دامنه حرکت.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
 ### Gall Yasası
 
