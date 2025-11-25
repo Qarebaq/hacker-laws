@@ -296,25 +296,25 @@ Ek kaynaklar:
 
 [در ویکی پدیا Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart's_law)
 
-> Gözlemlenen herhangi bir istatistiksel düzenlilik, kontrol amaçları için üzerine baskı uygulandığında çökme eğiliminde olacaktır. *Charles Goodhart*
+> هر الگویی که در داده‌ها پیدا کنید، اگر از آن برای کنترل رفتار استفاده کنید، معمولاً خراب می‌شود و دیگر درست کار نمی‌کند 
 > *Charles Goodhart*
 
-Ayrıca şu şekilde de ifade edilir:
+معمولا اینچنین بیان میشود:
 
-> Bir ölçüm hedef haline geldiğinde, iyi bir ölçüm olmaktan çıkar. *Marilyn Strathern*
+> وقتی یک شاخص تبدیل به هدف شود، دیگر یک شاخص خوب نخواهد بود
 > *Marilyn Strathern*
 
-Bu yasa, ölçüme dayalı optimizasyonların, ölçüm sonucunun kendisinin anlamsızlaşmasına yol açabileceğini belirtmektedir. Bir prosese kör bir şekilde uygulanan aşırı seçici tedbirler ( [KPI'ler](https://en.wikipedia.org/wiki/Performance_indicator) ) çarpık bir etkiye neden olur. İnsanlar, eylemlerinin bütünsel sonuçlarına dikkat etmek yerine belirli metrikleri tatmin etmek için sistemle "oynayarak" yerel olarak optimize etme eğilimindedir.
+این قانون بیان می‌کند که بهینه‌سازی‌های مبتنی بر شاخص‌ها می‌تواند منجر به کاهش ارزش خودِ نتیجهٔ اندازه‌گیری شود. اعمال کورکورانهٔ مجموعه‌ای محدود از شاخص‌ها ( [KPI ها](https://en.wikipedia.org/wiki/Performance_indicator) ) روی یک فرایند، معمولاً تأثیر تحریف‌شده ایجاد می‌کند. افراد تمایل دارند به‌صورت محلی بهینه‌سازی کنند و با «دور زدن» سیستم، شاخص‌های خاص را برآورده کنند، به جای آن که به نتیجهٔ کلی و جامع اقدامات خود توجه داشته باشند.
 
-Gerçek dünyadan örnekler:
+مثال های واقعی:
 
-- "Asert" olmadan yazılan testler, ölçümün amacının iyi test edilmiş bir yazılım oluşturmak olmasına rağmen sadece kod kapsamı beklentisini karşılar.
-- Yazılan satır sayısının gösterdiği geliştirici performans puanı haksız yere şişirilmiş kod tabanına yol açar.
+- تست‌های بدون "assert"، انتظارات مربوط به کدکاوری (code coverage) را برآورده می‌کنند، با وجود اینکه هدف اصلی این معیار، ایجاد نرم‌افزار با کیفیت و به‌خوبی تست‌شده بود.
+- امتیاز عملکرد توسعه‌دهنده که با تعداد خطوط کد commit شده سنجیده می‌شود، منجر به بادکردگی غیرضروری کدبیس می‌شود.
 
-Ek kaynaklar:
+همچنین بخوانید:
 
-- [Goodhart Yasası: Yanlış Şeyleri Ölçmek Ahlaksız Davranışları Nasıl Yönlendirir?](https://coffeeandjunk.com/goodharts-campbells-law/)
-- [Sorunsuz bir yazılım dünyasında Dilbert](https://dilbert.com/strip/1995-11-13)
+- [قانون گودهارت: چگونه سنجش چیزهای اشتباه رفتارهای غیراخلاقی ایجاد می‌کند؟](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [دیلبرت و مسئلهٔ نرم‌افزار بی‌عیب](https://dilbert.com/strip/1995-11-13)
 
 ### Hanlon'un Usturası
 
