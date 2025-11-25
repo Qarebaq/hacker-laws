@@ -24,7 +24,7 @@ Programcıların faydalı bulacağı yasalar, teoriler, prensipler ve desenler.
     - [سه قانون کلارک](#سه-قانون-کلارک)
     - [قانون کانوی(Conway's Law)](#قانون-کانویconways-law)
     - [قانون کانینگهام(Cunningham's Law)](#قانون-کانینگهامcunninghams-law)
-    - [Dunbar Sayısı](#dunbar-sayısı)
+    - [عدد دانبار(Dunbar's Number)](#عدد-دانبارdunbars-number)
     - [Fitt Yasası](#fitt-yasası)
     - [Gall Yasası](#gall-yasası)
     - [Goodhart Yasası](#goodhart-yasası)
@@ -236,17 +236,19 @@ Ek kaynaklar:
 
 - [XKCD 386: "وظیفه فرا میخواند"](https://xkcd.com/386/)
 
-### Dunbar Sayısı
+### عدد دانبار(Dunbar's Number)
 
-[Wikipedia'da Dunbar Sayısı](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+[عدد دانبار در ویکی پدیا](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-"Dunbar'ın sayısı, bir kişinin istikrarlı bir sosyal ilişkide bulunabileceği kişilerin sayısının kavramsal sınırıdır - bu ilişki bireyin ilişkide olduğu her bir kişinin kim olduğunu ve her bir kişinin diğer bir kişiler ile ilişkisini bildiği ilişkidir." Sayının tam değeri konusunda bir anlaşmazlık vardır. "... [Dunbar] insanların ancak 150 kişilik ilişkiler istikrarlı bir şekilde bulunabileceğini söylemiş."... Dunbar sayıyı daha sosyal bir bağlam içine koydu, "sayıyı bir barda içki içmeye davet edildiğinizde sıkılmadan ya da utanmadan kabul edebileceğiniz kişi sayısı olarak değerlendirdi". Bu da 100 ile 250 arasındaki bir sayı olarak düşünülebilir.
+«عدد دانبار یک حد شناختی پیشنهادی برای تعداد افرادی است که یک فرد می‌تواند با آن‌ها روابط اجتماعی پایدار برقرار کند.روابطی که در آن فرد می‌داند هر شخص کیست و هر شخص چگونه با دیگران ارتباط دارد.» در مورد عدد دقیق آن اختلاف نظر وجود دارد. «… [دانبار] پیشنهاد کرد که انسان‌ها می‌توانند به‌طور راحت تنها ۱۵۰ رابطه پایدار را حفظ کنند.» او این عدد را در یک زمینه اجتماعی ملموس‌تر توضیح داد: «تعداد افرادی که اگر در یک بار به آن‌ها برخورد کنید، بدون دعوت رسمی می‌توانید به جمع‌شان بپیوندید و احساس شرمندگی نکنید.» برآوردهای عدد معمولاً بین ۱۰۰ تا ۲۵۰ قرار دارد.
 
-Kişiler arası insani ilişkilerde olduğu gibi, insanlarla kod arasındaki ilişki de sürüdürülebilmek için çaba gerektirir. Karmaşık projelerle karşılaştığımızda ya da bu projeleri yönetmek sorunda kaldığımızda, projeyi ölçekleyebilmek için eğilimlere, politikalara ve modellenmiş prosedürlere yaslanmaya çalışırız. Dunbar sayısını sadece çalışan sayısı büyüdüğünde değil, takımın harcayacağı emeğin kapsamını belirlerken ya da sistemdeki lojistik ek yükün modellenmesine ve otomatikleştirilmesine yardımcı olmak için takımlara yatırım yaparken de göz önünde bulundurulmalıdır. Bir başka mühendislik bağlamında düşünürsek, bu sayı müşteri destek sisteminde nöbetçi olunurken sorumluluğunu alabileceğiniz proje/ürün sayısını belirlerken de rehber olabilir.
+مانند روابط پایدار بین افراد، رابطه یک توسعه‌دهنده با یک کدبیس نیز نیازمند تلاش برای نگه‌داشتن است. وقتی با پروژه‌های بزرگ و پیچیده روبه‌رو هستیم یا مالک چندین پروژه هستیم، برای مدیریت آن‌ها به رویه‌ها، سیاست‌ها و مدل‌های استاندارد متکی می‌شویم. عدد دانبار نه‌تنها در زمان رشد یک دفتر کار اهمیت دارد، بلکه هنگام تعیین دامنه تلاش‌های تیمی یا تصمیم‌گیری درباره زمان سرمایه‌گذاری یک سیستم در ابزارهای کمک‌کننده برای مدل‌سازی و خودکارسازی بار لجستیکی نیز اهمیت دارد. اگر این عدد را در زمینه مهندسی قرار دهیم، این همان تعداد پروژه‌ها (یا پیچیدگی نرمال‌شده یک پروژه) است که شما برای 
+شرکت در نوبت‌های پشتیبانی اضطراری و احساس اطمینان کافی دارید.
 
-Ek kaynaklar:
+همچنین یخوانید:
 
-- [Conway Yasası](#conways-law)
+
+- [قانون کانوی](#conways-law)
 
 ### Fitt Yasası
 
