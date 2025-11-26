@@ -29,7 +29,7 @@
     - [قانون فیتس(Fitt's Law)](#قانون-فیتسfitts-law)
     - [قانون گال (Gall's Law)](#قانون-گال-galls-law)
     - [Goodhart's Law](#goodharts-law)
-    - [Hanlon'un Usturası](#hanlonun-usturası)
+    - [تیغ هالنون(Hanlon's Razor)](#تیغ-هالنونhanlons-razor)
     - [Hick Yasası (Hick-Hyman Yasası)](#hick-yasası-hick-hyman-yasası)
     - [Hofstadter Yasası](#hofstadter-yasası)
     - [Hutber Yasası](#hutber-yasası)
@@ -316,14 +316,15 @@ Ek kaynaklar:
 - [قانون گودهارت: چگونه سنجش چیزهای اشتباه رفتارهای غیراخلاقی ایجاد می‌کند؟](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [دیلبرت و مسئلهٔ نرم‌افزار بی‌عیب](https://dilbert.com/strip/1995-11-13)
 
-### Hanlon'un Usturası
+### تیغ هالنون(Hanlon's Razor)
 
-[Wikipedia'da Hanlon'un Usturası](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
+[تیغ هالنون در ویکی پدیا](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 
-> Aptallıkla layıkıyla açıklanabilecek bir şeyi, asla kötü niyete bağlamayın. Robert J. Hanlon
-> Robert J. Hanlon
+> هیچ وقت چیزی را که میتوان به نادانی نسبت داد به بدخواهی نسبت نده
+> رابرت جِی. هانلون
 
-Bu prensip, olumsuz sonuçlara yol açan eylemlerin, çoğunlukla kötü niyetin sonucu olmadığını savunmaktadır. Aksine, olumsuz sonuç daha büyük olasılıkla bu eylemlerin ve/veya etkinin tam olarak anlaşılamamasına bağlıdır.
+این اصل بیان میکند که نتایجی که منفی هستند معمولا ناشی از بدخواهی یا نیت بد نیستند.
+بلکه احتمال بیشتری دارد که نتیجه منفی به خود آن اقدامات یا تاثیرات ناشناخته و درک نشده آنها نسبت داده شود.
 
 ### Hick Yasası (Hick-Hyman Yasası)
 
